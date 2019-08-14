@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Tealium_Extend</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Tealum Custom Data for Tealium Tags Module</summary>
+    <description>Tealum tag management solution extension injects the Tealium javascript into your magento pages, and on specific pages injects special javascript so that you can access specific data elements such as product, category or cart data.</description>
+    <notes>1.0.0 - initial release</notes>
+    <authors><author><name>Patrick McWilliams</name><user>Tealium</user><email>patrick.mcwilliams@tealium.com</email></author></authors>
+    <date>2015-02-19</date>
+    <time>04:17:05</time>
+    <contents><target name="magelocal"><dir name="Tealium"><dir name="Extend"><dir name="Helper"><file name="Data.php" hash="7dd8fdb8c04bf51546ba910b0864aa14"/><file name="TealiumCustomData.php" hash="84011e774a9ac40f5a0e70495bc835d1"/></dir><dir name="etc"><file name="config.xml" hash="62a1126187b92611dd7a8970cdeb202a"/><file name="system.xml" hash="59b7b2f5df0d9ba3b6cded885d55df5d"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Tealium_Extend.xml" hash="1002be213b286213b632ba2227e17471"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Tealium_Tags</name><channel>community</channel><min></min><max></max></package></required></dependencies>
+</package>

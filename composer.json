@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Tealium_Extend",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Tealum Custom Data for Tealium Tags Module",
+    "authors": [
+    {
+        "name": "Patrick McWilliams",
+        "email": "patrick.mcwilliams@tealium.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

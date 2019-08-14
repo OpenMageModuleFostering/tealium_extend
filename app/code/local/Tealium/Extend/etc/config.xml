@@ -1,0 +1,19 @@
+<config>
+    <modules>
+        <Tealium_Extend>
+            <version>1.0.0</version>
+        </Tealium_Extend>
+    </modules>
+    <global>
+        <helpers>
+            <tealium_tags>
+                <rewrite>
+                    <data>Tealium_Extend_Helper_Data</data>
+                </rewrite>
+            </tealium_tags>
+            <tealium_extend>
+                <class>Tealium_Extend_Helper</class>
+            </tealium_extend>
+        </helpers>
+    </global>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Tealium_Extend>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Tealium_Tags/>
+            </depends>
+        </Tealium_Extend>
+    </modules>
+</config>
