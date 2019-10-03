@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Tealium_Extend",
+    "name": "openmage-module-fostering\/tealium_extend",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Tealum Custom Data for Tealium Tags Module",
     "authors": [
